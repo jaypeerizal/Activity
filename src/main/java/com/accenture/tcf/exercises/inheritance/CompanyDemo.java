@@ -1,0 +1,20 @@
+package com.accenture.tcf.exercises.inheritance;
+
+public class CompanyDemo {
+
+
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Manager mng = new Manager();
+		mng.setId(101234);
+		mng.setEname("John Peter");
+		mng.setEmail("John.peter@Accenture.com");
+		mng.setVacationDays(20);
+		mng.setNumberOfReportees(10);
+		mng.printDetails();
+	}
+
+
+}
