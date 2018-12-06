@@ -6,7 +6,6 @@ public class Manager extends Employee{
 	public void printDetails(){
 		super.printDetails();
 		System.out.println("Number of Reportees : " + this.numberOfReportees);
-
 	}
 
 	public int getNumberOfReportees() {

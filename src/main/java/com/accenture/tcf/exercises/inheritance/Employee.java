@@ -5,15 +5,15 @@ public class Employee {
 	private String ename;
 	private String email;
 	private int vacationDays;
-	
-	
+
+
 	public void printDetails(){
-		
+
 		System.out.println("Id : "+this.id);
 		System.out.println("Name : "+this.ename);
 		System.out.println("Email : "+this.email);
 		System.out.println("Vacation Days : "+this.vacationDays);
-		
+
 	}
 
 
@@ -55,5 +55,5 @@ public class Employee {
 	public void setVacationDays(int vacationDays) {
 		this.vacationDays = vacationDays;
 	}
-	
+
 }
